@@ -10,13 +10,12 @@ function run(){
 }
 function addNewLine() {
     const editor = document.getElementById('editor');
-    editor.innerHTML += '\n'; // Add a new line
+    editor.innerHTML += '\n';  
 }
-
-// Event listener for keyboard input (Enter key)
+ 
 document.getElementById('editor').addEventListener('keydown', function (event) {
     if (event.key === 'Enter') {
-        event.preventDefault(); // Prevent default behavior (line break)
+        event.preventDefault();  
         addNewLine();
     }
 });
