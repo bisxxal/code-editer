@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.0.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+<link rel="stylesheet" href="style.css">
+<body>
+    <div class="main">
+        <div class="left">
+          
+               
+                <label><i class="ri-html5-fill"></i>HTML</label>
+                <textarea id="html-code"  onkeyup="run()" ></textarea>
+                <label><i class="ri-css3-line"></i> CSS</label>
+                <textarea id="css-code" onkeyup="run()" ></textarea>
+                <label><i class="ri-javascript-line"></i></i>JAVASCRIPT</label>
+                <textarea id="js-code" onkeyup="run()" ></textarea>
+          
+        </div>
+
+       
+        
+        <div class="right">
+            <label ><i class="ri-play-fill"></i>output</label>
+            <iframe id="output"></iframe>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
