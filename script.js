@@ -22,23 +22,4 @@ document.getElementById('editor').addEventListener('keydown', function (event) {
 });
 
 
-
-// function run() {
-//     const htmlCode = document.getElementById('html-code').value;
-//     const cssCode = document.getElementById('css-code').value;
-//     const jsCode = document.getElementById('js-code').value;
-
-//     const outputFrame = document.getElementById('output').contentWindow.document;
-//     const lineNumbersContainer = document.getElementById('line-numbers');
-
-//     const lines = Math.max(htmlCode.split('\n').length, cssCode.split('\n').length, jsCode.split('\n').length);
-
-//     lineNumbersContainer.innerHTML = '';
-//     for (let i = 1; i <= lines; i++) {
-//         lineNumbersContainer.innerHTML += `<div>${i}</div>`;
-//     }
-
-//     outputFrame.open();
-//     outputFrame.write(`<style>${cssCode}</style>${htmlCode}<script>${jsCode}</script>`);
-//     outputFrame.close();
-// }
+ 
